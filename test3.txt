@@ -6,3 +6,4 @@ escrito desde master
 =======
 escrito desde prueba2
 >>>>>>> prueba2
+escrito desde master y prueba
