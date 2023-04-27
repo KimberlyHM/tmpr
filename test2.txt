@@ -1,0 +1,45 @@
+ús: git config [<opcions>]
+
+Ubicació del fitxer de configuració
+    --global              usa el fitxer de configuració global
+    --system              usa el fitxer de configuració del sistema
+    --local               usa el fitxer de configuració del dipòsit
+    --worktree            usa un fitxer de configuració per dipòsit
+    -f, --file <fitxer>   usa el fitxer de configuració donat
+    --blob <ID de blob>   llegeix la configuració de l'objecte de blob donat
+
+Acció
+    --get                 obtén valor: nom [value-pattern]
+    --get-all             obtén tots els valors: clau [value-pattern]
+    --get-regexp          obtén valors de regexp: name-regex [value-pattern]
+    --get-urlmatch        obtén el valor específic per a l'URL: secció[.variable] URL
+    --replace-all         reemplaça totes les variables que coincideixen: nom valor [value-pattern]
+    --add                 afegeix una variable nova: nom valor
+    --unset               elimina una variable: nom [value-pattern]
+    --unset-all           elimina totes les coincidències: nom [value-pattern]
+    --rename-section      canvia el nom de secció: nom-antic nom-nou
+    --remove-section      elimina una secció: nom
+    -l, --list            llista tots
+    --fixed-value         usa la igualtat de les cadenes quan es comparen els valors amb «value-pattern»
+    -e, --edit            obre un editor
+    --get-color           troba el color configurat: ranura [per defecte]
+    --get-colorbool       troba el paràmetre de color: ranura [stdout-és-tty]
+
+Tipus
+    -t, --type <>         el valor té donat aquest tipus
+    --bool                el valor és «true» o «false»
+    --int                 el valor és un nombre decimal
+    --bool-or-int         el valor és --bool o --int
+    --bool-or-str         el valor és --bool o string
+    --path                el valor és un camí (nom de fitxer o directori)
+    --expiry-date         el valor és una data de venciment
+
+Altre
+    -z, --null            acaba els valors amb un octet NUL
+    --name-only           mostra només els noms de variable
+    --includes            respecta les directives d'inclusió en cercar
+    --show-origin         mostra l'origen de la configuració (fitxer, entrada estàndard, blob, línia d'ordres)
+    --show-scope          show scope of config (worktree, local, global, system, command)
+    --default <valor>     with --get, use default value when missing entry
+
+
