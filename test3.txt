@@ -1,4 +1,8 @@
 dijous, 27 d’abril de 2023, 12:26:41 CEST
 
 agregar una prueba en problema 15
+<<<<<<< HEAD
 escrito desde master
+=======
+escrito desde prueba2
+>>>>>>> prueba2
