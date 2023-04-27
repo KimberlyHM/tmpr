@@ -13,3 +13,4 @@
 general@introprgvm:~/tmpr$ 
 
 dijous, 27 d’abril de 2023, 12:29:43 CEST
+mickey mouse
